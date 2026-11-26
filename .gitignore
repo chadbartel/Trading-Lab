@@ -1,0 +1,35 @@
+# Python & Poetry
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+htmlcov/
+junit.xml
+dist/
+build/
+*.egg-info/
+
+# Local runtime artifacts & SQLite test DBs
+*.db
+*.db-journal
+*.sqlite3
+logs/
+artifacts/
+
+# Ephemeral agent logs & scratch
+.agent-logs/
+.agents/tmp/
+.agents/logs/
+*.agent.log
+
+# Local secrets
+.env
+.env.*
+.vault_pass
+*.key
+*.pem
